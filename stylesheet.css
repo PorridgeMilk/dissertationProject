@@ -1,0 +1,1110 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+    
+    
+    
+    
+    
+   
+}
+
+/*#2b2d2f*/
+
+body, html{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background: #ECECEC;
+    background-image: url("images/running-2.jpg"); /*Image Source: Wallpapercave (2020) Available at: https://wallpapercave.com/athlete-wallpapers(Accessed: 02 May 2020).*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+   
+   
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    background: white;
+   
+    
+    
+}
+
+
+h1{
+    font-size: 35px;
+    color: #2b2d2f;
+}
+
+h2{
+    font-size: larger;
+    color: #2b2d2f;
+    
+}
+
+h3{
+    font-size: medium;
+    color: #2b2d2f;
+}
+
+p{
+    font-size: 20px;
+    color: #2b2d2f;
+}
+
+main{
+     
+     
+
+     
+    
+   
+}
+
+
+
+
+a{
+    font-size: 19px;
+    color: #2b2d2f;
+}
+
+
+
+
+.redText
+{
+    color: #167cb9;
+}
+
+.menu h1{
+    font-size: 19px;
+    color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b2d2f;
+    
+  
+  
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+    
+}
+
+.menu li a:hover {
+  background-color: white;
+  color: #2b2d2f;
+}
+
+.logo img{
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.select{
+    width: 100%;
+    background: #0f4c70;
+    
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    margin-top:5px;
+}
+
+.select:hover{
+
+    
+    color: white;
+    background: #167cb9;
+    
+}
+
+
+
+
+
+
+
+
+ 
+#page-wrap { 
+    width: 500px; 
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+
+}
+
+#page-wrap ol{
+list-style-type: none;
+}
+
+
+
+#page-wrap label{
+    color:#fff;
+    text-align: left;
+}
+ 
+#results {
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+.app-text-quiz {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+.app-text-quiz p{
+    width: 650px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #093145;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.app-text-quiz a{
+    
+    
+
+    font-size: 50px;
+    color: #167cb9;
+    background-color: transparent;
+}
+
+
+
+.quizResults{
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    color:#DCDCDC;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.quizResults a{
+    color:#167cb9;
+}
+
+
+
+
+
+
+
+.leaderboard{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 700px; 
+    max-height: 500px;
+   
+    text-align: center;
+    
+    background: linear-gradient(to bottom, #167cb9, #0f4c70);
+  border-radius: 10px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+    text-align: center;
+  border: 3px solid #fff;
+  padding: 10px;
+}
+
+
+.leaderboard p{
+    
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.leaderboard h1{
+    
+   
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.account{
+   position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:30px;
+    
+    
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: 30px;
+   
+   
+}
+
+
+.accountBadges{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: row;
+    
+    
+    
+}
+
+.badgeDescription{
+    
+    border: 6px solid #fff;
+}
+
+
+
+
+.aContainer{
+    text-align: center;
+}
+
+::placeholder {
+  color: #0f4c70;
+  padding: 5px;
+
+    
+}
+
+
+
+.form{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom:30px;
+    width: 500px;
+    height: auto;
+    background-color: #DCDCDC;
+    
+    padding: 30px;
+}
+
+
+.form h1{
+    text-align: center;
+    color: #2b2d2f;
+    margin-bottom: 10px;
+}
+
+.form h2{
+    text-align: center;
+    color: #2b2d2f;
+}
+
+.form p{
+    color: #2b2d2f;
+    text-align: center;
+}
+
+
+.forgotPassword{
+    border: hidden;
+    color: #167cb9;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.forgotPassword:hover{
+    color: #0f4c70;
+    
+}
+
+
+.submit{
+    width: 100%;
+    color: white;
+    padding: 5px 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 0;
+    background-color:#167cb9;
+    text-decoration: none;
+    border: none;
+    height: 70px;
+    
+}
+
+.submit:hover{
+    width: 100%;
+    color: white;
+    padding: 5px 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 0;
+    background-color:#0f4c70;
+    text-decoration: none;
+    border: none;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    color: #2b2d2f;
+    
+    
+}
+
+.req{
+    color: #DF465A;
+}
+
+.tab-group {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+    
+}
+
+.tab-active{
+  float: left;
+}
+
+
+.tab-active a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 218px;
+  background-color: #167cb9;
+}
+
+.tab-active a:hover{
+  background-color: #0f4c70;
+}
+
+.tab {
+  float: left;
+}
+
+.tab a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 218px;
+   background-color: #2b2d2f;
+      
+}
+
+.tab a:hover {
+  background-color: #0f4c70;
+    color: white;
+}
+
+
+
+
+.radio{
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+
+
+.gender{
+    display:none; 
+    float: left;
+}
+
+
+.gender + .genderlabel {
+    display: block;
+  color: #bfbfbf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 218px;
+   background-color: #2b2d2f;
+       float: left;
+}
+
+.gender + .genderlabel:hover {
+    background-color: #0f4c70;
+    color: white;
+}
+
+
+
+.gender:checked + .genderlabel { 
+   background-image: none;
+    background-color:#167cb9;
+    color:white;
+}
+
+
+.genderlabel {
+    
+    
+  color: #bfbfbf;
+  text-align: center;
+  
+  text-decoration: none;
+  width: 203px;
+   background-color: #2b2d2f;
+    
+       
+}
+
+.gender + .genderlabel:hover {
+    background-color: #0f4c70;
+    color: white;
+}
+
+
+
+.gender:checked + .genderlabel { 
+   background-image: none;
+    background-color:#167cb9;
+    color:white;
+}
+
+
+.navLogo{
+    margin: 14px 16px;
+   
+    float: left;
+}
+
+
+
+
+ 
+.formTdeeFunctionality{
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+   
+    background-color: #DCDCDC;
+    color: white;
+    text-align: center;
+}
+
+.tdeeTable{
+    
+    
+  border-collapse: collapse;
+  text-align: center;
+    table-layout: fixed ;
+  width: 100% ;
+    
+}
+
+
+
+
+
+
+.tdeeTable td, th{
+    
+    border: 1px solid #dddddd;
+  
+  padding: 8px;
+    
+}
+
+
+
+
+.bmiTable{
+    
+  border-collapse: collapse;
+  
+    table-layout: fixed ;
+  width: 100% ;
+    
+}
+
+.bmiTable a{
+    color: #167cb9;
+}
+
+
+.bmiTable td, th{
+    
+    border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+    width: 25%;
+}
+
+.bmiScore{
+    border-collapse: collapse;
+  
+    table-layout: fixed ;
+  width: 100% ;
+}
+
+
+
+
+.bmi{
+    color: #2b2d2f;
+}
+
+
+
+
+.horizontalList li{
+    
+    display: inline-block;
+    color: #2b2d2f;
+    
+}
+
+
+.formTdeeFunctionality ul{
+    
+    list-style-type: none;
+}
+
+.formTdeeFunctionality a{
+    
+    color: #167cb9;
+}
+
+
+.formTdee{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+   
+    background-color: #DCDCDC;
+}
+
+
+
+
+
+
+
+
+.quizwrap{
+    
+    margin: 0 auto;
+    
+    background: #DCDCDC;
+    margin-top:30px;
+    
+}
+
+
+
+#page-wrap hr{
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+#page-wrap input[type=radio] + label{
+    background: #2b2d2f;
+    color: white;
+}
+
+#page-wrap input[type=radio] + label:hover{
+    background: #0f4c70;
+    color: white;
+}
+
+
+#page-wrap input[type=radio]:checked + label{
+    background: #167cb9;
+    color: white;
+}
+
+#page-wrap label{
+   margin-bottom: 20px;
+}
+
+#page-wrap h3{
+   font-size:30px;
+   color: #167cb9;
+}
+
+
+
+#page-wrap input[type=radio]{
+    display: none;
+    
+}
+
+
+#page-wrap label:hover{
+    
+    color: white;
+    background: #0f4c70;
+   
+}
+
+#page-wrap label{
+    background:#2b2d2f;
+    color: white;
+    padding: 20px;
+    font-size: 21px;
+    font-weight: bold;
+   
+}
+
+.descriptionBox{
+    padding: 100px;
+}
+
+.form input[type=text], input[type=password], input[type=email], input[type=number]{
+    
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #2b2d2f;
+    background: none;
+    color: #2b2d2f;
+    
+}
+
+.form h3{
+    text-align: center;
+}
+
+
+.learnContainer{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #DCDCDC;
+    padding: 30px;
+    
+}
+
+.learnContainer h1{
+    color: #2b2d2f;
+    
+}
+
+
+.learnContainer a{
+    color: #167cb9;
+}
+
+
+
+.learnContainer li{
+    color: #2b2d2f;
+}
+
+    
+
+
+
+
+
+.muscleTable{
+    border: 2px solid #b3b3b3;
+    border-collapse: collapse;
+    table-layout: fixed ;
+    width: 100% ;
+    
+    
+}
+
+.muscleTable td{
+    color: #2b2d2f;
+    border: 2px solid #b3b3b3;
+}
+
+
+.muscleTable th{
+    color: #2b2d2f;
+    border: 2px solid #b3b3b3;
+    text-align: center;
+    font-size: 30px;
+}
+
+cite{
+    color:#167cb9;
+}
+
+
+.learning h2{
+    color: #2b2d2f;
+        font-size: 25px;
+}
+
+
+ .ulBox{
+    
+    
+    list-style-type: none;
+    text-align: justify;
+    position: relative;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: #DCDCDC;
+    color: white;
+    
+        
+}
+
+.learnContainer .learning{
+    border: 2px solid #b3b3b3;
+    
+    
+}
+
+.learnContainer input[type=submit]{
+    font-size: 40px;
+}
+
+.learning p {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    
+}
+
+.mainBox{
+    
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    height: auto;
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+}
+
+.mainBox a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    background:#167cb9;
+ 
+}
+
+.mainBox a:hover{
+    background:#0f4c70;
+ 
+}
+
+
+.aboutUl{
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #2b2d2f;
+}
+
+
+.footer{
+    
+    text-align: center;
+    width: 1200px;
+    background: #DCDCDC;
+    height: 50px;
+    
+    
+
+}
+
+.inside{
+    position: relative;
+    margin: 0 auto;
+    
+    background: #DCDCDC;
+    
+    
+    
+    
+}
+
+.resultsTable{
+    border-collapse: collapse;
+    table-layout: fixed ;
+    width: 100% ;
+}
+
+.tableAccount{
+    
+    
+  border-collapse: collapse;
+  
+    table-layout: fixed ;
+  width: 50% ;
+    height: auto;
+    margin: 0 auto;
+    
+    
+}
+
+.tableAccount td,th{
+    border: 2px solid #b3b3b3;
+    text-align: center;
+}
+
+.badgeImg{
+    
+    max-width:100%;
+    height:40%;
+
+}
+
+
+
+
+.tabs {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+    
+    
+}
+
+.tabs-active{
+  float: left;
+}
+
+
+.tab-active a:hover{
+  background-color: #0f4c70;
+}*/
+
+.tabs {
+  float: left;
+}
+
+
+
+.tabs a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 24px 28px;
+  text-decoration: none;
+  width: 319px;
+   background-color: #2b2d2f;
+      
+}
+.tabs .active{
+    background: #167cb9;
+    color: white;
+}
+
+
+.tabs a:hover {
+  background-color: #0f4c70;
+    color: white;
+}
+
+
+
+.box{
+    position: relative;
+    display: inline-block;
+   
+    width: 25%;
+    background: #DCDCDC;
+    float: left;
+    min-height: 75%;
+    text-align: center;
+   
+    color: white;
+    
+}
+
+.box p{
+    font-size: medium;
+}
+
+
+
+
+.Weather{
+    
+    display: inline-block;
+  
+    margin: 0 auto;
+    margin: 30px;
+    
+    
+}
+
+
+.locationBox{
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    background: #DCDCDC;
+    float: right;
+    min-height: 75%;
+    
+    
+    color: white;
+}
+
+
+.locationForm{
+    position: relative;
+    margin: 0 auto;
+    padding: 30px;
+    
+    height: auto;
+    background-color: #DCDCDC;
+    
+    
+}
+
+.locationForm input[type=text]{
+    width: 100%;
+   
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #2b2d2f;
+    background: none;
+    color: #2b2d2f;
+    
+    
+    
+}
+
+#distance-info{ 
+  margin-top:30px;
+  background-color: #DCDCDC;
+  font-size: medium;
+  color: #2b2d2f;
+    text-align: center;
+    min-height: 50px;
+    
+    
+ 
+}
+
+.distanceMatrix{
+    display: block;
+    text-align: center;
+    
+    
+
+}
+
+.mapHeader{
+    font-size: 24px;
+}
+
+
